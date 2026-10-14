@@ -1,0 +1,47 @@
+# Base de datos
+*.sql
+*.dump
+
+# Credenciales
+.env
+conexion.php
+conexion_easy.php
+
+# Git anidado
+.git/
+*.git
+turnerocvca.git/
+turnerocvca-mirror.git/
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Backups
+*_bk.php
+*_backup.php
+*.bak
+*.old
+*.orig
+
+# Multimedia
+*.mp4
+video.mp4
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Reportes
+reporte_*.csv
+
+# Excepciones
+!conexion.example.php
